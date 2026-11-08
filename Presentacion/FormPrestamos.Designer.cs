@@ -46,7 +46,11 @@
             lblFechaEstimada = new Label();
             lblFechaDevolucion = new Label();
             lblEstado = new Label();
+            panel1 = new Panel();
+            panel2 = new Panel();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)dgvPrestamos).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // dgvPrestamos
@@ -54,14 +58,14 @@
             dgvPrestamos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvPrestamos.Location = new Point(12, 348);
             dgvPrestamos.Name = "dgvPrestamos";
-            dgvPrestamos.Size = new Size(1007, 172);
+            dgvPrestamos.Size = new Size(1007, 201);
             dgvPrestamos.TabIndex = 0;
             dgvPrestamos.CellClick += dgvPrestamos_CellClick;
             // 
             // cmbUsuarios
             // 
             cmbUsuarios.FormattingEnabled = true;
-            cmbUsuarios.Location = new Point(250, 42);
+            cmbUsuarios.Location = new Point(436, 108);
             cmbUsuarios.Name = "cmbUsuarios";
             cmbUsuarios.Size = new Size(179, 23);
             cmbUsuarios.TabIndex = 1;
@@ -69,28 +73,28 @@
             // cmbLibros
             // 
             cmbLibros.FormattingEnabled = true;
-            cmbLibros.Location = new Point(250, 89);
+            cmbLibros.Location = new Point(436, 137);
             cmbLibros.Name = "cmbLibros";
             cmbLibros.Size = new Size(179, 23);
             cmbLibros.TabIndex = 2;
             // 
             // dtpFechaPrestamo
             // 
-            dtpFechaPrestamo.Location = new Point(250, 131);
+            dtpFechaPrestamo.Location = new Point(415, 182);
             dtpFechaPrestamo.Name = "dtpFechaPrestamo";
             dtpFechaPrestamo.Size = new Size(200, 23);
             dtpFechaPrestamo.TabIndex = 3;
             // 
             // dtpFechaEstimada
             // 
-            dtpFechaEstimada.Location = new Point(250, 169);
+            dtpFechaEstimada.Location = new Point(415, 211);
             dtpFechaEstimada.Name = "dtpFechaEstimada";
             dtpFechaEstimada.Size = new Size(200, 23);
             dtpFechaEstimada.TabIndex = 4;
             // 
             // dtpfechaDevolucion
             // 
-            dtpfechaDevolucion.Location = new Point(250, 211);
+            dtpfechaDevolucion.Location = new Point(415, 240);
             dtpfechaDevolucion.Name = "dtpfechaDevolucion";
             dtpfechaDevolucion.Size = new Size(200, 23);
             dtpfechaDevolucion.TabIndex = 5;
@@ -98,14 +102,14 @@
             // cmbEstado
             // 
             cmbEstado.FormattingEnabled = true;
-            cmbEstado.Location = new Point(250, 257);
+            cmbEstado.Location = new Point(415, 281);
             cmbEstado.Name = "cmbEstado";
             cmbEstado.Size = new Size(179, 23);
             cmbEstado.TabIndex = 6;
             // 
             // btnGuardar
             // 
-            btnGuardar.Location = new Point(32, 526);
+            btnGuardar.Location = new Point(685, 306);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(75, 23);
             btnGuardar.TabIndex = 7;
@@ -115,7 +119,7 @@
             // 
             // btnEditar
             // 
-            btnEditar.Location = new Point(132, 526);
+            btnEditar.Location = new Point(766, 306);
             btnEditar.Name = "btnEditar";
             btnEditar.Size = new Size(75, 23);
             btnEditar.TabIndex = 8;
@@ -125,7 +129,7 @@
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(231, 526);
+            btnEliminar.Location = new Point(847, 306);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(75, 23);
             btnEliminar.TabIndex = 9;
@@ -135,7 +139,7 @@
             // 
             // btnDevolver
             // 
-            btnDevolver.Location = new Point(334, 526);
+            btnDevolver.Location = new Point(928, 306);
             btnDevolver.Name = "btnDevolver";
             btnDevolver.Size = new Size(75, 23);
             btnDevolver.TabIndex = 10;
@@ -145,7 +149,7 @@
             // 
             // btnLimpiar
             // 
-            btnLimpiar.Location = new Point(451, 526);
+            btnLimpiar.Location = new Point(662, 137);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(75, 23);
             btnLimpiar.TabIndex = 11;
@@ -155,7 +159,7 @@
             // lblUsuario
             // 
             lblUsuario.AutoSize = true;
-            lblUsuario.Location = new Point(169, 45);
+            lblUsuario.Location = new Point(347, 108);
             lblUsuario.Name = "lblUsuario";
             lblUsuario.Size = new Size(62, 15);
             lblUsuario.TabIndex = 12;
@@ -164,7 +168,7 @@
             // lblLibro
             // 
             lblLibro.AutoSize = true;
-            lblLibro.Location = new Point(186, 92);
+            lblLibro.Location = new Point(364, 137);
             lblLibro.Name = "lblLibro";
             lblLibro.Size = new Size(45, 15);
             lblLibro.TabIndex = 13;
@@ -173,7 +177,7 @@
             // lblFechaDePrestamo
             // 
             lblFechaDePrestamo.AutoSize = true;
-            lblFechaDePrestamo.Location = new Point(101, 137);
+            lblFechaDePrestamo.Location = new Point(279, 190);
             lblFechaDePrestamo.Name = "lblFechaDePrestamo";
             lblFechaDePrestamo.Size = new Size(130, 15);
             lblFechaDePrestamo.TabIndex = 14;
@@ -182,7 +186,7 @@
             // lblFechaEstimada
             // 
             lblFechaEstimada.AutoSize = true;
-            lblFechaEstimada.Location = new Point(45, 175);
+            lblFechaEstimada.Location = new Point(223, 217);
             lblFechaEstimada.Name = "lblFechaEstimada";
             lblFechaEstimada.Size = new Size(186, 15);
             lblFechaEstimada.TabIndex = 15;
@@ -191,7 +195,7 @@
             // lblFechaDevolucion
             // 
             lblFechaDevolucion.AutoSize = true;
-            lblFechaDevolucion.Location = new Point(105, 217);
+            lblFechaDevolucion.Location = new Point(283, 246);
             lblFechaDevolucion.Name = "lblFechaDevolucion";
             lblFechaDevolucion.Size = new Size(126, 15);
             lblFechaDevolucion.TabIndex = 16;
@@ -200,17 +204,48 @@
             // lblEstado
             // 
             lblEstado.AutoSize = true;
-            lblEstado.Location = new Point(175, 265);
+            lblEstado.Location = new Point(353, 281);
             lblEstado.Name = "lblEstado";
             lblEstado.Size = new Size(56, 15);
             lblEstado.TabIndex = 17;
             lblEstado.Text = "ESTADO :";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.MidnightBlue;
+            panel1.Location = new Point(3, 1);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(193, 341);
+            panel1.TabIndex = 18;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.MidnightBlue;
+            panel2.Controls.Add(label1);
+            panel2.Dock = DockStyle.Top;
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1031, 47);
+            panel2.TabIndex = 19;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(436, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(301, 32);
+            label1.TabIndex = 20;
+            label1.Text = "GESTION DE PRESTAMOS";
             // 
             // FormPrestamos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1031, 561);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
             Controls.Add(lblEstado);
             Controls.Add(lblFechaDevolucion);
             Controls.Add(lblFechaEstimada);
@@ -232,6 +267,8 @@
             Name = "FormPrestamos";
             Text = "FormPrestamos";
             ((System.ComponentModel.ISupportInitialize)dgvPrestamos).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -256,5 +293,8 @@
         private Label lblFechaEstimada;
         private Label lblFechaDevolucion;
         private Label lblEstado;
+        private Panel panel1;
+        private Panel panel2;
+        private Label label1;
     }
 }
