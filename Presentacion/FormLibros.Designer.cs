@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             lblTituloLibros = new Label();
             dgvLibros = new DataGridView();
             BtnRegistrar = new Button();
@@ -58,14 +58,14 @@
             lblDisponibilidad = new Label();
             panel1 = new Panel();
             panel2 = new Panel();
-            lblBuscador = new Label();
-            lbldescripcion = new Label();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
             label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            lbldescripcion = new Label();
+            lblBuscador = new Label();
             ((System.ComponentModel.ISupportInitialize)dgvLibros).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudCantidad).BeginInit();
             panel1.SuspendLayout();
@@ -87,28 +87,28 @@
             // 
             dgvLibros.AllowUserToAddRows = false;
             dgvLibros.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle10.SelectionBackColor = Color.AliceBlue;
-            dgvLibros.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1.SelectionBackColor = Color.AliceBlue;
+            dgvLibros.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dgvLibros.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvLibros.BackgroundColor = Color.White;
             dgvLibros.BorderStyle = BorderStyle.None;
-            dataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = Color.MidnightBlue;
-            dataGridViewCellStyle11.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle11.ForeColor = Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = DataGridViewTriState.True;
-            dgvLibros.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.MidnightBlue;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dgvLibros.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dgvLibros.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = SystemColors.Window;
-            dataGridViewCellStyle12.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle12.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle12.SelectionBackColor = Color.LightSteelBlue;
-            dataGridViewCellStyle12.SelectionForeColor = Color.MidnightBlue;
-            dataGridViewCellStyle12.WrapMode = DataGridViewTriState.False;
-            dgvLibros.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = SystemColors.Window;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = Color.LightSteelBlue;
+            dataGridViewCellStyle3.SelectionForeColor = Color.MidnightBlue;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            dgvLibros.DefaultCellStyle = dataGridViewCellStyle3;
             dgvLibros.GridColor = Color.Gainsboro;
             dgvLibros.Location = new Point(12, 358);
             dgvLibros.Name = "dgvLibros";
@@ -317,7 +317,7 @@
             clbAutores.FormattingEnabled = true;
             clbAutores.Location = new Point(740, 79);
             clbAutores.Name = "clbAutores";
-            clbAutores.Size = new Size(206, 112);
+            clbAutores.Size = new Size(337, 148);
             clbAutores.TabIndex = 21;
             // 
             // lblAutores
@@ -340,7 +340,7 @@
             // 
             // btnLimpiar
             // 
-            btnLimpiar.Location = new Point(740, 217);
+            btnLimpiar.Location = new Point(624, 253);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(120, 35);
             btnLimpiar.TabIndex = 24;
@@ -383,75 +383,17 @@
             panel2.Size = new Size(191, 291);
             panel2.TabIndex = 27;
             // 
-            // lblBuscador
+            // label6
             // 
-            lblBuscador.AutoSize = true;
-            lblBuscador.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblBuscador.Location = new Point(264, 330);
-            lblBuscador.Name = "lblBuscador";
-            lblBuscador.Size = new Size(72, 17);
-            lblBuscador.TabIndex = 28;
-            lblBuscador.Text = "Buscador :";
-            // 
-            // lbldescripcion
-            // 
-            lbldescripcion.AutoSize = true;
-            lbldescripcion.BackColor = Color.Transparent;
-            lbldescripcion.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbldescripcion.ForeColor = Color.White;
-            lbldescripcion.Location = new Point(12, 28);
-            lbldescripcion.Name = "lbldescripcion";
-            lbldescripcion.Size = new Size(179, 15);
-            lbldescripcion.TabIndex = 29;
-            lbldescripcion.Text = "Desde aqui puedes registrar un";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(12, 50);
-            label1.Name = "label1";
-            label1.Size = new Size(167, 15);
-            label1.TabIndex = 29;
-            label1.Text = "nuevo libro completando los ";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(12, 71);
-            label2.Name = "label2";
-            label2.Size = new Size(112, 15);
-            label2.TabIndex = 29;
-            label2.Text = "campos solicitados.";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(12, 113);
-            label3.Name = "label3";
-            label3.Size = new Size(153, 15);
-            label3.TabIndex = 29;
-            label3.Text = "Tambien puedes editar sus";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(12, 137);
-            label4.Name = "label4";
-            label4.Size = new Size(173, 15);
-            label4.TabIndex = 29;
-            label4.Text = "datos, seleccionando la fila del";
+            label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.White;
+            label6.Location = new Point(12, 190);
+            label6.Name = "label6";
+            label6.Size = new Size(65, 15);
+            label6.TabIndex = 29;
+            label6.Text = "eliminarlo.";
             // 
             // label5
             // 
@@ -465,17 +407,75 @@
             label5.TabIndex = 29;
             label5.Text = "libro y asi mismo puedes";
             // 
-            // label6
+            // label4
             // 
-            label6.AutoSize = true;
-            label6.BackColor = Color.Transparent;
-            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(12, 190);
-            label6.Name = "label6";
-            label6.Size = new Size(65, 15);
-            label6.TabIndex = 29;
-            label6.Text = "eliminarlo.";
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(12, 137);
+            label4.Name = "label4";
+            label4.Size = new Size(173, 15);
+            label4.TabIndex = 29;
+            label4.Text = "datos, seleccionando la fila del";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(12, 113);
+            label3.Name = "label3";
+            label3.Size = new Size(153, 15);
+            label3.TabIndex = 29;
+            label3.Text = "Tambien puedes editar sus";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(12, 71);
+            label2.Name = "label2";
+            label2.Size = new Size(112, 15);
+            label2.TabIndex = 29;
+            label2.Text = "campos solicitados.";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(12, 50);
+            label1.Name = "label1";
+            label1.Size = new Size(167, 15);
+            label1.TabIndex = 29;
+            label1.Text = "nuevo libro completando los ";
+            // 
+            // lbldescripcion
+            // 
+            lbldescripcion.AutoSize = true;
+            lbldescripcion.BackColor = Color.Transparent;
+            lbldescripcion.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbldescripcion.ForeColor = Color.White;
+            lbldescripcion.Location = new Point(12, 28);
+            lbldescripcion.Name = "lbldescripcion";
+            lbldescripcion.Size = new Size(179, 15);
+            lbldescripcion.TabIndex = 29;
+            lbldescripcion.Text = "Desde aqui puedes registrar un";
+            // 
+            // lblBuscador
+            // 
+            lblBuscador.AutoSize = true;
+            lblBuscador.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblBuscador.Location = new Point(264, 330);
+            lblBuscador.Name = "lblBuscador";
+            lblBuscador.Size = new Size(72, 17);
+            lblBuscador.TabIndex = 28;
+            lblBuscador.Text = "Buscador :";
             // 
             // FormLibros
             // 
