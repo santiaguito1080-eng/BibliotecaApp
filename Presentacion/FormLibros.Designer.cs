@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             lblTituloLibros = new Label();
             dgvLibros = new DataGridView();
             BtnRegistrar = new Button();
@@ -87,28 +87,28 @@
             // 
             dgvLibros.AllowUserToAddRows = false;
             dgvLibros.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.SelectionBackColor = Color.AliceBlue;
-            dgvLibros.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.SelectionBackColor = Color.AliceBlue;
+            dgvLibros.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             dgvLibros.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvLibros.BackgroundColor = Color.White;
             dgvLibros.BorderStyle = BorderStyle.None;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.MidnightBlue;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            dgvLibros.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = Color.MidnightBlue;
+            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.ForeColor = Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
+            dgvLibros.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             dgvLibros.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = SystemColors.Window;
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle3.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = Color.LightSteelBlue;
-            dataGridViewCellStyle3.SelectionForeColor = Color.MidnightBlue;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            dgvLibros.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = SystemColors.Window;
+            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle6.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = Color.LightSteelBlue;
+            dataGridViewCellStyle6.SelectionForeColor = Color.MidnightBlue;
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
+            dgvLibros.DefaultCellStyle = dataGridViewCellStyle6;
             dgvLibros.GridColor = Color.Gainsboro;
             dgvLibros.Location = new Point(12, 358);
             dgvLibros.Name = "dgvLibros";
@@ -315,7 +315,7 @@
             // 
             clbAutores.CheckOnClick = true;
             clbAutores.FormattingEnabled = true;
-            clbAutores.Location = new Point(740, 79);
+            clbAutores.Location = new Point(659, 79);
             clbAutores.Name = "clbAutores";
             clbAutores.Size = new Size(337, 148);
             clbAutores.TabIndex = 21;
@@ -485,6 +485,7 @@
             BackColor = Color.WhiteSmoke;
             ClientSize = new Size(1153, 561);
             Controls.Add(btnEditar);
+            Controls.Add(clbAutores);
             Controls.Add(lblBuscador);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -492,7 +493,6 @@
             Controls.Add(btnLimpiar);
             Controls.Add(txtBuscar);
             Controls.Add(lblAutores);
-            Controls.Add(clbAutores);
             Controls.Add(nudCantidad);
             Controls.Add(lblCantidad);
             Controls.Add(cmbEditorial);

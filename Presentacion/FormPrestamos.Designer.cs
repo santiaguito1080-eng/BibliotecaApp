@@ -52,9 +52,9 @@
             // dgvPrestamos
             // 
             dgvPrestamos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvPrestamos.Location = new Point(12, 347);
+            dgvPrestamos.Location = new Point(12, 348);
             dgvPrestamos.Name = "dgvPrestamos";
-            dgvPrestamos.Size = new Size(1386, 172);
+            dgvPrestamos.Size = new Size(1007, 172);
             dgvPrestamos.TabIndex = 0;
             dgvPrestamos.CellClick += dgvPrestamos_CellClick;
             // 
@@ -210,7 +210,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1484, 561);
+            ClientSize = new Size(1031, 561);
             Controls.Add(lblEstado);
             Controls.Add(lblFechaDevolucion);
             Controls.Add(lblFechaEstimada);
