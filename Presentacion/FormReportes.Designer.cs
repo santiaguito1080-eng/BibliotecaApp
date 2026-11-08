@@ -84,7 +84,7 @@
             dgvReportes.Name = "dgvReportes";
             dgvReportes.ReadOnly = true;
             dgvReportes.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvReportes.Size = new Size(532, 346);
+            dgvReportes.Size = new Size(613, 346);
             dgvReportes.TabIndex = 4;
             // 
             // panel1
@@ -93,14 +93,14 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(556, 62);
+            panel1.Size = new Size(637, 62);
             panel1.TabIndex = 5;
             // 
             // FormReportes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(556, 586);
+            ClientSize = new Size(637, 586);
             Controls.Add(panel1);
             Controls.Add(dgvReportes);
             Controls.Add(btnCerrar);
