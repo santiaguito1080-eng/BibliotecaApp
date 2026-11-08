@@ -88,11 +88,11 @@
             dtvEditoriales.AllowUserToAddRows = false;
             dtvEditoriales.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dtvEditoriales.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtvEditoriales.Location = new Point(29, 272);
+            dtvEditoriales.Location = new Point(12, 299);
             dtvEditoriales.MultiSelect = false;
             dtvEditoriales.Name = "dtvEditoriales";
             dtvEditoriales.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dtvEditoriales.Size = new Size(919, 250);
+            dtvEditoriales.Size = new Size(858, 250);
             dtvEditoriales.TabIndex = 5;
             dtvEditoriales.CellClick += dtvEditoriales_CellClick;
             dtvEditoriales.CellContentClick += dtvEditoriales_CellContentClick;
@@ -151,7 +151,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(984, 561);
+            ClientSize = new Size(882, 561);
             Controls.Add(btnLimpiar);
             Controls.Add(btnActualizar);
             Controls.Add(btnEliminar);
